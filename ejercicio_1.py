@@ -17,3 +17,4 @@ notas = [ 9 , 4 , 3, 10]
 for i in range(len(alumnado)):
     x = Alumno(alumnado[i], notas[i])
     x.calificacion()
+    
